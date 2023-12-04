@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+}
+
+/*cabeça-links*/
+
+
+#cabeca{
+    padding: 40px;
+    border-bottom: 1px solid black;
+    
+}
+
+/*meio-login*/
+
+#middle{
+    background-image: url(imagens/9169455-ceu-dourado-por-do-sol-na-costa-natureza-paisagem-vetor.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center center;
+    transition: background-image 0.5s ease-in-out;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagens{
+    display: flex;
+    flex-direction: column;
+}
+
+#login{
+    opacity: 90%;
+    margin-right: 300px;
+    margin-top: 150px;
+    border-radius: 20px 0px 20px 20px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid white;
+    color: white;
+}
+
+
+.dentro_login{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 60px;
+}
+.dentro_login input{
+    height: 25px;
+}
+
+#login input{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+#login button{
+    background-color: transparent;
+    letter-spacing: 2px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-top: 25px;
+    height: 50px;
+    width: 100px;
+    margin-left: 100px;
+    border: 2px solid white;
+    color: white;
+}
+
+#login button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+#middle-container{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+
+.esquerda{
+    border-radius: 30px 0px 30px 0px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+    object-fit: cover;
+}
+
+.direita{
+    border-radius: 0px 30px 0px 30px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+    object-fit: cover;
+}
+
+/*footer*/
+
+#fundo_pagina{
+    border-top: 1px solid black;
+}
